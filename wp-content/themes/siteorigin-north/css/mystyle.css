@@ -1,0 +1,60 @@
+@font-face {
+	font-family: 'Metropolis';
+	src:url('fonts/Metropolis-Medium.woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.banner-container{
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.banner-heading h2{
+    font-family: 'Metropolis' !important;
+}
+
+.banner-subheading h2{
+    font-family: 'Metropolis' !important;
+    font-weight: 500 !important;
+    background: -webkit-linear-gradient(95.12deg, #003B73 0%, rgba(26, 143, 255, 0.55) 146.74%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-subheading h2{
+    animation: bounce 1s; 
+    animation-direction: alternate; 
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5); 
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce { 
+    from { 
+        transform: translate3d(0, 0, 0);
+    }
+    to { 
+        transform: translate3d(0, 40px, 0); 
+        opacity: 0;
+    } 
+} 
+
+.banner-description p{
+    font-family: 'Metropolis' !important;
+    font-weight: 500 !important;
+}
+
+.banner-btn a{
+    background: linear-gradient(180deg, #003B73 0%, #60A3D9 100%) !important;
+}
+
+.partners-heading h2, .services-heading h2{
+    font-family: 'Metropolis' !important;
+    font-weight: 500 !important;
+    letter-spacing: 2px;
+}
+
+.partners-img-grid img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
