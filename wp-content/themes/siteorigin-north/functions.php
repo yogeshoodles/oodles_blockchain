@@ -480,6 +480,7 @@ if ( function_exists( 'is_woocommerce' ) ) {
 If you need to add custom functions, use the Code Snippets plugin (https://wordpress.org/plugins/code-snippets/) or a child theme. */
 function mytheme_files() {
 	wp_enqueue_style('mytheme_style', get_template_directory_uri() . '/css/mystyle.css');
+	wp_enqueue_script('mytheme_script', get_template_directory_uri() . '/assets/js/industryImageGrid.js');
 }
 
 add_action('wp_enqueue_scripts', 'mytheme_files');
