@@ -58,3 +58,90 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+.services-cards h5{
+    text-align: left !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    color: #222121;
+}
+
+.services-cards .sow-icon-container{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: fit-content !important;
+}
+
+.services-cards .sow-features-feature{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 0 20px 20px;
+    width: 290px !important;
+}
+
+.services-cards .sow-more-text a{
+    font-weight: 600 !important;
+    margin-right: 5px;
+    color: #222121 !important;
+}
+
+.services-cards .sow-more-text a::after{
+    content: "\27F6";
+}
+
+.services-cards .sow-more-text{
+    text-align: right;
+}
+
+.industry-img-grid img{
+    width: 180px !important;
+    height: 460px !important;
+    border-radius: 20px;
+    opacity: 0.4 !important;
+}
+
+
+.industry-img-grid img:hover{
+    opacity: 1 !important;
+    width: 300px !important;
+}
+
+.industry-img-grid .sow-image-grid-image{
+    position: relative;
+}
+
+.industry-img-grid .sow-image-grid-image .title-desc{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+}
+
+.hidden{
+    display: none !important;
+}
+
+.our-work-section{
+    background: rgba(241, 248, 255, 1);
+    height: 250px;
+}
+
+.our-work-section h2{
+    font-family: 'Metropolis' !important;
+    font-weight: 500 !important;
+    width: 540px;
+}
+
+.our-work-section > .panel-grid-cell{
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-work-section-counts {
+    width: 500px;
+}
+
+.our-work-section-counts .panel-grid-cell .panel-first-child{
+    margin-bottom: 15px !important;
+}
+  
